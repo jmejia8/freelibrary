@@ -1,0 +1,59 @@
+.wp-pagenavi {
+	-moz-border-radius:8px 8px 8px 8px;
+	background-color: #F7F7F7;
+	border-color: #C0C0C0;
+	border-style:solid;
+	border-width:1px;
+	color: #1e1e1e;
+	overflow:hidden;
+	padding:0 10px 10px;
+	text-align:right;;
+}
+.wp-pagenavi span.pages {
+	margin-right: -7px;
+	display: block;
+	font-size: 10px;
+	font-family: Verdana, Geneva, sans-serif;
+}
+.wp-pagenavi a, .wp-pagenavi span {
+	padding:3px 10px;
+	margin:3px 3px 0 3px;
+	display:inline-block;
+	line-height:14px;
+}
+.wp-pagenavi a {
+	border-width:1px;
+	border-style:solid;
+	text-decoration: none;
+	font-size: 10px;
+	font-family: Verdana, Geneva, sans-serif;
+}
+.wp-pagenavi a:link, .wp-pagenavi a:visited {
+	color: #fff;
+	background-color: #444444;
+	border-color:#000000 #292929 #292929 #000000;
+	-moz-border-radius:4px 4px 4px 4px;
+  -webkit-border-radius: 4px 4px 4px 4px;
+  border-radius: 4px 4px 4px 4px;
+}
+.wp-pagenavi a:hover {
+	color:#fff;
+	background-color: #999;
+}
+.wp-pagenavi span.current {
+	-moz-border-radius:4px 4px 4px 4px;
+  -webkit-border-radius: 4px 4px 4px 4px;
+  border-radius: 4px 4px 4px 4px;
+	background: none repeat scroll 0 0 #FFF;
+	border-color: #000;
+	border-style:solid;
+	border-width:1px;
+	color: #1e1e1e;
+	font-family:Verdana,Geneva,sans-serif;
+	font-size:10px;
+	font-weight:bold;
+	line-height:16px;
+	margin-top:0;
+	padding-top:2px;
+  border: 1px solid #C0C0C0;
+}
