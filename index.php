@@ -2,37 +2,12 @@
     "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 
-<!-- Mirrored from www.etnassoft.com/ by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 06 Dec 2014 17:03:56 GMT -->
-<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<meta name="language" content="spanish" />
-
-<!-- Geo Tags -->
-<meta name="geo.region" content="ES-M" />
-<meta name="geo.placename" content="Madrid" />
-<meta name="geo.position" content="40.428977;-3.662704" />
-<meta name="ICBM" content="40.428977, -3.662704" />
-
-<!-- Tags Dublin Core -->
-<meta name="DC.Language" content="es_ES" />
-<meta name="DC.Publisher" content="Carlos Benitez" />
-<meta name="DC.Creator" content="Carlos Benitez" />
-
-<!-- Google Tag -->
-<meta name="google-site-verification" content="jgvJrX9FBZ2o6fjk892t4DI3-tNXXMsIAQW7uqKEdCg" />
-
 <!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if necessary -->
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
 <script>window.jQuery || document.write(unescape('%3Cscript src="http://www.etnassoft.com/wp-content/themes/etnassoft/js/jquery-1.6.1.min.js"%3E%3C/script%3E'))</script>
 
 <title>EtnasSoft | Programación Web y arquitectura Javascript en Madrid</title>
-<link rel="profile" href="http://gmpg.org/xfn/11" />
 <link rel="stylesheet" type="text/css" media="all" href="wp-content/themes/etnassoft/style.css" />
-<link rel="pingback" href="xmlrpc.php" />
-<link rel="shortcut icon" href="favicon.ico" />
-<link rel="alternate" type="application/rss+xml" title="EtnasSoft &raquo; Feed" href="feed/index.html" />
-<link rel="alternate" type="application/rss+xml" title="EtnasSoft &raquo; RSS de los comentarios" href="comments/feed/index.html" />
 <link rel='stylesheet' id='yarppWidgetCss-css'  href='wp-content/plugins/yet-another-related-posts-plugin/style/widgetf39e.css?ver=4.0.1' type='text/css' media='all' />
 <link rel='stylesheet' id='output-css'  href='wp-content/plugins/addthis/css/outputf39e.css?ver=4.0.1' type='text/css' media='all' />
 <link rel='stylesheet' id='contact-form-7-css'  href='wp-content/plugins/contact-form-7/includes/css/styles657a.css?ver=3.9.3' type='text/css' media='all' />
@@ -42,27 +17,6 @@
 <script type="text/javascript">/* <![CDATA[ */ var SHRSB_Globals = {"src":"http:\/\/www.etnassoft.com\/wp-content\/plugins\/sexybookmarks\/spritegen_default","perfoption":"1","twitter_template":"%24%7Btitle%7D+-+%24%7Bshort_link%7D+via+%40etnassoft","locale":"0","shortener":"bitly","shortener_key":"shareaholic%7cR_83932e4c5d02d1f94aea0f40fbc557ec","pubGaSocial":0,"pubGaKey":""}; /* ]]> */</script><script type='text/javascript' src='wp-content/plugins/wp-plus-one/wp-plus-onef39e.js?ver=4.0.1'></script>
 <script type='text/javascript' src='wp-includes/js/jquery/jquery90f9.js?ver=1.11.1'></script>
 <script type='text/javascript' src='wp-includes/js/jquery/jquery-migrate.min1576.js?ver=1.2.1'></script>
-<link rel="EditURI" type="application/rsd+xml" title="RSD" href="xmlrpc0db0.php?rsd" />
-<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="wp-includes/wlwmanifest.xml" /> 
-<meta name="generator" content="WordPress 4.0.1" />
-<!-- HeadSpace SEO 3.6.41 by John Godley - urbangiraffe.com -->
-<meta name="description" content="EtnasSoft son mis anotaciones personales sobre diseño web, arquitectura Javascript, jQuery y programación general." />
-<!-- HeadSpace -->
-
-<!-- Shareaholic Content Tags -->
-
-<meta name='shareaholic:site_name' content='EtnasSoft' />
-	<!-- Shareaholic Notice: There is no featured image set -->
-
-<!-- / Shareaholic Content Tags -->
-
-
-
-<!-- Shareaholic - Open Graph Tags -->
-
-	<!-- Shareaholic Notice: There is no featured image set -->
-
-<!-- / Shareaholic - Open Graph Tags -->
 
 <script type="text/javascript">/* <![CDATA[ */ var SHRSB_Globals = {"src":"http:\/\/www.etnassoft.com\/wp-content\/plugins\/sexybookmarks\/spritegen_default","perfoption":"1","twitter_template":"%24%7Btitle%7D+-+%24%7Bshort_link%7D+via+%40etnassoft","locale":"0","shortener":"bitly","shortener_key":"shareaholic%7cR_83932e4c5d02d1f94aea0f40fbc557ec","pubGaSocial":0,"pubGaKey":""}; /* ]]> */</script><script type="text/javascript" src="wp-content/themes/etnassoft/js/etnassoft.js"></script>
 </head>
@@ -73,7 +27,7 @@
 				
 				<div id="header-topnav">
 					<a title="Dise&ntilde;o y programaci&oacute;n Web. Ingenier&iacute;a Javascript." href="index.html">
-						<img id="logo" alt="Dise&ntilde;o y programaci&oacute;n web Madrid. Desarrollo de Frontend Madrid. Programaci&oacute;n Javascript Madrid." src="wp-content/themes/etnassoft/images/headers/logo.png" />
+						<img id="logo"  src="wp-content/themes/etnassoft/images/headers/logo.png" />
 					</a>
 
 
@@ -94,7 +48,7 @@
 </form>					</div><!-- #access -->
 				</div>
 
-																<h1 class="image_central">Dise&ntilde;o y Proagramaci&oacute;n Web Madrid. Front-end Developer Madrid. Arquitecto Javascript Madrid - EtnasSoft </h1>
+															<h1 class="image_central">Dise&ntilde;o y Proagramaci&oacute;n Web Madrid. Front-end Developer Madrid. Arquitecto Javascript Madrid - EtnasSoft </h1>
 
 					
 
