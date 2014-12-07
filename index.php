@@ -1,7 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
     "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
-
+<meta charset="utf-8">
 <!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if necessary -->
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
 <script>window.jQuery || document.write(unescape('%3Cscript src="http://www.etnassoft.com/wp-content/themes/etnassoft/js/jquery-1.6.1.min.js"%3E%3C/script%3E'))</script>
