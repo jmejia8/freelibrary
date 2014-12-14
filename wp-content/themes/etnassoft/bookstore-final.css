@@ -102,13 +102,15 @@ h1.image_central {
   border-bottom: 1px solid #EE1A2D;
 }
 
-#access .bookstore_top_menu ul li:last-child a{
+/*Imagen que se tiene que quitar.*/
+
+/*#access .bookstore_top_menu ul li:last-child a{
   background: url("http://collection.openlibra.com.s3.amazonaws.com/etnassoft/images/icons/rss_mini.png?30062011") no-repeat scroll 0 0 transparent;
   color: #FF0000;
   margin-left: 5px;
   padding-left: 14px;
 }
-
+*/
 
 #access #bookstore_search_form #searchform #s {
   background: none repeat scroll 0 0 #333333;
