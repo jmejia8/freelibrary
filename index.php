@@ -38,15 +38,13 @@
 					<div id="access">
 					 <div class="skip-link screen-reader-text"><a href="#content" title="Saltar al contenido">Saltar al contenido</a></div>
 					<div class="menu-header">
-						<ul id="menu-menu-navegacion" class="menu"><li id="menu-item-807" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-807"><a href="../index.html">Inicio</a></li>
-							<li id="menu-item-808" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-808"><a href="../biblioteca/index.html">Biblioteca</a></li>
-							<li id="menu-item-809" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-47 current_page_item menu-item-809"><a href="index.html">Sobre mí</a></li>
-							<li id="menu-item-810" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-810"><a href="../archivo/index.html">Archivo</a></li>
-							<li id="menu-item-811" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-811"><a href="../contactar/index.html">Contactar</a></li>
+						<ul>
+							<li id="menu-item-809" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-47 current_page_item menu-item-809"><a href="index.php">Sobre mí</a></li>
+							<li id="menu-item-808" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-808"><a href="biblioteca/index.html">Biblioteca</a></li>
 							<li id="menu-item-1453" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1453"><a href="../feed/rss/index.html">RSS</a></li>
 						</ul>
 					</div>
-					
+
 					</div><!-- #access -->
 				</div>
 
