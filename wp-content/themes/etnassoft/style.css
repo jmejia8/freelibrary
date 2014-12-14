@@ -620,14 +620,14 @@ body.single #access a{
 	border-bottom: 1px solid #FFF;
 }
 
-#access .menu ul li:last-child a,
+/*#access .menu ul li:last-child a,
 #access .menu-header ul li:last-child a,
 #subfooter .menu ul li:last-child a{
 	background:url("images/icons/rss_mini.png") no-repeat scroll 0 0 transparent;
 	color: #f00;
 	margin-left:5px;
 	padding-left: 14px;
-}
+}*/
 
 #access ul ul {
   display: none;
