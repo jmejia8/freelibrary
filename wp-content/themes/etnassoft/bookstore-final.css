@@ -139,7 +139,7 @@ h1.image_central {
 }
 
 #bookstore_info_bar .inner{
-  background: url("http://collection.openlibra.com.s3.amazonaws.com/etnassoft/images/layout/openlibra_girl.png?1305831022") no-repeat scroll 10px 7px transparent;
+  background: url("images/openLib_pluma.png") no-repeat scroll 10px 7px transparent;
   height: 87px;
   margin: 0 auto;
   padding: 25px 0 35px;
@@ -261,7 +261,7 @@ h1.books_title {
 }
 
 h1.books_title a{
-  background: url("http://collection.openlibra.com.s3.amazonaws.com/etnassoft/images/layout/openlibra_logo.png?30062011") no-repeat scroll 0 0 transparent;
+  background: url("images/header-openLib_logo.png") no-repeat scroll 0 0 transparent;
   display: block;
   height: 94px;
   margin-left: 110px;
@@ -1416,7 +1416,7 @@ h2.no_founds{
   display: block;
 }
 .footer_logo{
-  background: url("http://collection.openlibra.com.s3.amazonaws.com/etnassoft/images/icons/openlibra_logo.png?1307045676") no-repeat scroll 0 0 transparent;
+  background: url("images/footer_OpenLib_logo.png") no-repeat scroll 0 0 transparent;
   display: inline-block;
   height: 90px;
   margin: 2px 0 0;
