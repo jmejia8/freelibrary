@@ -16,14 +16,14 @@ while ($row=mysql_fetch_array($sql)) {
 
   <li>
           <div>
-            <a class="attachment-bookstore_thumb" title="Advanced Probability and Statistics Concepts" href="advanced-probability-and-statistics-concepts/index.html">
+            <a class="attachment-bookstore_thumb" href="libro.php?item=<? echo $row['id']; ?>">
               <span class="details">
-                <span class="title" title="Advanced Probability and Statistics Concepts"><? echo $row['nombre']; ?></span>
+                <span class="title" ><? echo $row['nombre']; ?></span>
               </span>
             </a>
 
             <div class="image">
-              <img width="667" height="865" src="<? echo $row['imagen']; ?>" class="attachment-bookstore_grid wp-post-image wp-post-image" alt="Advanced Probability and Statistics Concepts" title="Advanced Probability and Statistics Concepts" />
+              <img width="667" height="865" src="<? echo $row['imagen']; ?>" class="attachment-bookstore_grid wp-post-image wp-post-image"  />
             </div>
             <div class="metadata">
               <div class="language_set english"></div> 
