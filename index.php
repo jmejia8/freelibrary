@@ -33,24 +33,21 @@
 				</div>
 				<div class="left e80">
 					<p>
-						Me llamo <strong>Carlos Ben&iacute;tez</strong> y me apasiona la inform&aacute;tica desde que era un cr&iacute;o. A los 12 a&ntilde;os, romp&iacute; la hucha con
-						las pagas de mis abuelos para comprar el que ser&iacute;a mi primer ordenador: un <m>Atari 800XL</m>.
+						Nosotros somos dos estudiantes universitarios apasionados por la programación, el desarrollo web y el aprendizaje constante.
 					</p>
 					<p>
-						Por aquellos entonces yo no sab&iacute;a nada de computadoras y de repente me encont&eacute; ante un ordenador importado en pleno apogeo
-				      	del Amstrad y el Spectrum. No hab&iacute;a forma de conseguir	manuales sobre c&oacute;mo funcionaba o se programaba aquello y claro,
-			    	  	Internet, en aquel momento, era el sue&ntilde;o de solo unos pocos visionarios.
-
-				    	As&iacute; que mis primeros pasos no fueron f&aacute;ciles y tuve que aprender un BASIC modificado por mi cuenta, mediante ensayo y muchos,
-				       	much&iacute;simos errores. Las pocas revistas de la &eacute;poca como la Microman&iacute;a o MicroHobby, ven&iacute;an con algunos programas
-				        que pod&iacute;amos copiar y estudiar, as&iacute; que, a los pocos d&iacute;as, ya ejecutaba programas que preguntaban la fecha de nacimiento
-				        y calculaban la edad del usuario...
+						Nuestro primer acercamiento con la programación lo tuvimos en nuestros primeros cursos universitarios. Pudimos darnos cuenta
+						que la programación es una poderosa herramienta que puede ser útil para propósitos académicos y científicos, pero ésta no solo
+						termina ahí, sino que también va más allá.
 					</p>
 					<p>
-						Fue dif&iacute;cil, pero divertido. Eran otros tiempos; hoy pensar&iacute;a que es frustrante enfrentarte a un sistema sin nada de informaci&oacute;n
-					    al respecto. Pero cuando lleg&oacute; Internet, todo cambi&oacute; de forma radical. De repente, ten&iacute;amos a nuestra disposici&oacute;n
-					    decenas de listas de correo	en las que se intercambiaba	todo tipo de informaci&oacute;n y, por primera vez tras media vida estudiando, comenzamos
-					    realmente a aprender...
+						Ejemplos claros y obvios de la programación los podemos notar cuando nos encontramos navegando en ese mar inmenso de la web, 
+						con sus millones de links a toda clase páginas, en las aplicaciones móviles o en los video juegos que cada vez van siendo más 
+						realistas.
+					</p>
+					<p>
+						Pero al final de todo lo anterior, también observamos que la programación era divertida y apasionante, ya que no muchas cosas
+						se pueden comparar con el hecho de ver tus propias creaciones teniendo “vida propia”.
 					</p>
 				</div>
 			</div>
@@ -61,24 +58,20 @@
 				</div>
 				<div class="left e80">
 					<p>
-						Este proyecto es mi peque&ntilde;a contribuci&oacute;n a todo ese inmenso mundo de informaci&oacute;n que circula por la red: quiero crear
-						contenidos que puedan enriquecer la formaci&oacute;n de quienes quieran leerlos.
+						Con este proyecto nos quisimos dar a la tarea de aportar nuestro propio granito de arena a todo ese inmenso mundo de información 
+						que es la Internet.
 					</p>
 					<p>
-						La popularizaci&oacute;n de la inform&aacute;tica hace posible que en cualquier peque&ntilde;a librer&iacute;a o biblioteca encontremos manuales
-						actualizados sobre las &uacute;ltimas tecnolog&iacute;as. Sin embargo, y pese a que me encanta leer bibliograf&iacute;a t&eacute;cnica,
-						&eacute;sta -por definici&oacute;n- siempre llega un poco tarde. Un blog es la plataforma inmediata que permite a toda la comunidad
-						inform&aacute;tica aprovecharse de los continuos avances que d&iacute;a a d&iacute;a se suceden.
-						Y, sobre todo, es la forma m&aacute;s abierta a la particici&oacute;n de vosotros, los lectores, que as&iacute; pod&eacute;is contribuir en tiempo
-						real con an&aacute;lisis y nuevos enfoques.
+						Con esta biblioteca virtual tenemos como objetivo compartir diferentes materiales digitales pertenecientes a distintas categorías. 
+						Podrán ver libros de ciencia ficción, de matemáticas, física, programación, idiomas, etc.
 					</p>
 					<p>
-						Ese es el fin que persigue esta web: que todos continuemos aprendiendo y que, aquellos que tengan inquietud con las tecnolog&iacute;as que aqu&iacute;
-						tratamos (php, MySQL, javascript, ...),	tengan siempre a mano una gu&iacute;a r&aacute;pida para aplicar a sus propios proyectos.
+						Esperamos que con esta web que toda persona que entre pueda continuar aprendiendo, instruirse y cultivarse, pero sobre todo que todo
+						lo anterior lo pueda tomar como beneficio tanto para su vida académica, laboral y personal.
 					</p>
-			    	<p>
-			    		Estamos en contacto.
-			    	</p>
+					<p>
+						Saludos y sean Bienvenidos a Open Library
+					</p>
 				</div>
 			</div>
 		</div>
