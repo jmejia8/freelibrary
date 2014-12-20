@@ -80,15 +80,6 @@
 	</div>
 	<div id="subfooter">
 		<div id="subfooter_content">
-				<!-- El siguiente div abarca la parte de la licencia. -->
-			    <div class="cc">
-				    <a class="cc_a" href="http://es.creativecommons.org/licencia/" rel="licencia nofollow" target="_blank">
-				        <img src="../wp-content/themes/etnassoft/images/layout/creative-commons.png" alt="Licencia Creative Commons 3.0" />
-				    </a>
-				    <p>&reg;Copyright 2011. Cotenido web bajo licencia <a href="http://creativecommons.org/licenses/by/3.0/deed.es">Creative Commons 3.0</a></p>
-				      <p>C&oacute;digos bajo licencias MIT y GPL. Ver <a href="../licencias/index.html">p&aacute;gina de licencias</a> para m&aacute;s informaci&oacute;n
-				    </p>
-			    </div>
 			    <a id="back_to_top_link" type="button">Volver a arriba</a>
 			    <div class="menu-menu-navegacion-container">
 			    	<ul id="menu-menu-navegacion-1" class="menu">
