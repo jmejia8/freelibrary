@@ -4,6 +4,8 @@
 		<meta charset="utf-8">
 		<title>Inicio</title>
 		<link rel="stylesheet" type="text/css" media="all" href="wp-content/themes/etnassoft/style.css" />
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+		<script src="js/boton_arriba.js"></script>
 	</head>
 <body class="home blog las nuevas constantes en javascript: explicación, ejemplos e inconsistencias chrome">
 	<div id="wrapper" class="hfeed">
@@ -87,7 +89,7 @@
 				      <p>C&oacute;digos bajo licencias MIT y GPL. Ver <a href="../licencias/index.html">p&aacute;gina de licencias</a> para m&aacute;s informaci&oacute;n
 				    </p>
 			    </div>
-			    <a href="#" id="back_to_top_link">Volver a arriba</a>
+			    <a id="back_to_top_link" type="button">Volver a arriba</a>
 			    <div class="menu-menu-navegacion-container">
 			    	<ul id="menu-menu-navegacion-1" class="menu">
 			    		<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-807"><a href="index.php">Inicio</a></li>
