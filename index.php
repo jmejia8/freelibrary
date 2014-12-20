@@ -17,7 +17,7 @@
 					<div class="menu-header">
 						<ul>
 							<li id="menu-item-809" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-47 current_page_item menu-item-809"><a href="index.php">Inicio</a></li>
-							<li id="menu-item-808" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-808"><a href="biblioteca/index.html">Biblioteca</a></li>
+							<li id="menu-item-808" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-808"><a href="biblioteca/index.php">Biblioteca</a></li>
 						</ul>
 					</div>
 				</div>
