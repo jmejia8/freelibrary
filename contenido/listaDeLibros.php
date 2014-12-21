@@ -1,3 +1,20 @@
+<div class="pagination">
+
+    <div class="pagination_selector">
+      <span class="prev disabled">&lt; anterior</span>
+      <span class="current">1</span>
+      <a href="page/2/indexaa09.php?new_layout=grid">2</a>
+      <a href="page/3/indexaa09.php?new_layout=grid">3</a>
+      <a class="next" href="page/2/indexaa09.php?new_layout=grid">siguiente &gt;</a>
+    </div>
+    <dl class="settings"><dt>Coincidencias:</dt><dd>2689 </dd></dl>
+</div>
+    <!-- ================================================================ -->
+    <!-- ================================================================ -->
+    <!-- ================================================================ -->
+    <!-- ================================================================ -->
+    <ul class="books"> 
+
 <?
 require '../bin/connect_sql.php';
 
@@ -32,3 +49,21 @@ while ($row=mysql_fetch_array($sql)) {
   <?
 }
   ?>
+
+
+    </ul>
+    <!-- ================================================================ -->
+    <!-- ================================================================ -->
+    <!-- ================================================================ -->
+    <!-- ================================================================ -->
+    <!-- ================================================================ -->
+    <div class="pagination">
+        <div class="pagination_selector">
+          <span class="prev disabled">&lt; anterior</span>
+          <span class="current">1</span>
+          <a href="page/2/indexaa09.php?new_layout=grid">2</a>
+          <a href="page/3/indexaa09.php?new_layout=grid">3</a>
+          <a class="next" href="page/2/indexaa09.php?new_layout=grid">siguiente &gt;</a>
+        </div>
+    </div>
+  </div>

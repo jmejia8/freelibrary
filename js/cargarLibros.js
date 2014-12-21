@@ -29,10 +29,10 @@ if(window.XMLHttpRequest)
 return request;
 }
 // creamos la funcion que validara nuestro formulario
-function cargarLibrosAjax(categoria) {
+function cargarLibrosAjax(categoria, pagina=0) {
 document.getElementById('cargarLibros').innerHTML="puto";
 
-var url = "../contenido/listaDeLibros.php?categoria="+categoria;
+var url = "../contenido/listaDeLibros.php?categoria="+categoria+"&pag="+pagina;
 myRequest.open("GET", url, true);
 myRequest.onreadystatechange = respuestaAJAX;
 myRequest.send(null);

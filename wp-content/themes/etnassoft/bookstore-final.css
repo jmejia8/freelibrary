@@ -1827,8 +1827,6 @@ h2.no_founds{
 .download_book{
   background: url("http://collection.openlibra.com.s3.amazonaws.com/etnassoft/images/layout/button.png?30062011") no-repeat scroll 0 0 #337716;
 	border: 0 none;
-  display: block;
-  float: left;
   font-family: HelveticaNeue,"Helvetica Neue",Arial,sans-serif;
   font-size: 14px;
   font-weight: bold;
@@ -1841,6 +1839,7 @@ h2.no_founds{
   text-decoration: none;
   text-shadow: 0 -1px #006900;
   width: 145px;
+  margin-left: 150px;
 }
 .download_book.purple{
 	background-position: -155px 0;

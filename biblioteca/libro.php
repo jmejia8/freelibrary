@@ -138,21 +138,7 @@ $row=mysql_fetch_array($sql);
                   <div class="label">Publicaci&oacute;n:</div>
                   <div class="value" title="2005"><? echo $row['anio']; ?></div>
                 </div>
-                <div class="row">
-                  <div class="label">Editorial:</div>
-                  <div class="value" title="Autoedición">Autoedición</div>
-                </div>
-                <div class="row">
-                  <div class="label">N&uacute;m. P&aacute;ginas:</div>
-                  <div class="value">40p.</div>
-                </div>
               </div>
-
-              <div class="row">
-                <div class="label">Tama&ntilde;o:</div>
-                <div class="value">891 Kbs (zip)</div>
-              </div>
-
               <div class="row">
                 <div class="label">Idioma:</div>
                 <div class="value"><? echo $row['idioma']; ?></div>
@@ -171,11 +157,6 @@ $row=mysql_fetch_array($sql);
                 <li><a title=" Ciencia " href="#"><? echo $cat['nombre']; ?></a></li>
               </ul>            
             </div>
-
-            <h2 class="meta_details">Etiquetas</h2>
-            <div class="book_tags">
-             <ul><li><a title="Ciencias" href="../tag/ciencias/index.html">Ciencias</a></li><li><a title="ejercicios" href="../tag/ejercicios/index.html">ejercicios</a></li><li><a title="juegos" href="../tag/juegos/index.html">juegos</a></li><li><a title="matemáticas" href="../tag/matematicas/index.html">matemáticas</a></li><li><a title="problemas" href="../tag/problemas/index.html">problemas</a></li><li><a title="puzzles" href="../tag/puzzles/index.html">puzzles</a></li></ul>            </div>
-
             <h2>Contenido</h2>
             <div class="book_content">
                 <p>
@@ -187,14 +168,9 @@ $row=mysql_fetch_array($sql);
             <div class="download_book">
               <a href="<? echo $row['url']; ?>" target="_blank">
                 Descargar Libro
-              </a>
+              </a><br>
+              Contrseña: 0p3Nl1bR4ry2014
             </div>
-
-						<div id="paypal-donate-form">
-              <a href="../../biblioteca-footer/donaciones/index.html" title="Realizar una donaci&oacute;n">
-                <img src="https://www.paypalobjects.com/es_ES/ES/i/btn/btn_donate_LG.gif" alt="Hacer una donací&oacute;n">
-              </a>
-						</div>
 
 					</div><!-- .entry-content -->
 				</div><!-- #post-## -->
