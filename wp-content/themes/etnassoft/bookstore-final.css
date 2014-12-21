@@ -141,7 +141,7 @@ h1.image_central {
 }
 
 #bookstore_info_bar .inner{
-  background: url("images/openLib_pluma.png") no-repeat scroll 10px 7px transparent;
+  background: url("images/openLib_pluma.png") no-repeat scroll 200px 7px transparent;
   height: 87px;
   margin: 0 auto;
   padding: 25px 0 35px;
@@ -285,7 +285,7 @@ h2.books_subtitle,
   text-transform: none;
 }
 .title_section{
-  float: left;
+  margin: auto;
   width: 556px;
 }
 .intro_section{

@@ -52,7 +52,6 @@ $row=mysql_fetch_array($sql);
 </form>        </div>
       </div><!-- #access -->
     </div>
-    <h1 class="image_central">Dise&ntilde;o y Proagramaci&oacute;n Web Madrid. Front-end Developer Madrid. Arquitecto Javascript Madrid - EtnasSoft </h1>
 	</div><!-- #header -->
 
   <div id="bookstore_promobar"></div>
@@ -63,10 +62,7 @@ $row=mysql_fetch_array($sql);
         <h1 class="books_title"><a title="OpenLibra. La biblioteca libre online" href="../index.php">Open Library</a></h1>
         <h2 class="books_subtitle">"La Biblioteca Libre online que estabas esperando"</h2>
       </div>
-      <div class="intro_section">
-        <a class="main_rss_follow" href="../../selector-rss/index.html">RSS</a>
-        <a class="main_twitter_follow" href="http://twitter.com/etnassoft/">Twitter</a>
-      </div>
+
     </div>
 
   </div>

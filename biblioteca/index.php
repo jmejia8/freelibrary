@@ -43,7 +43,6 @@ require '../bin/connect_sql.php';
 </form>        </div>
       </div><!-- #access -->
     </div>
-    <h1 class="image_central">Diseño y Proagramación Web Madrid. Front-end Developer Madrid. Arquitecto Javascript Madrid - EtnasSoft </h1>
 	</div><!-- #header -->
 
   <div id="bookstore_promobar"></div>
@@ -51,12 +50,8 @@ require '../bin/connect_sql.php';
   <div id="bookstore_info_bar">
     <div class="inner">
       <div class="title_section">
-        <h1 class="books_title"><a title="OpenLibra. La biblioteca libre online" href="index.php">OpenLibra</a></h1>
+        <h1 class="books_title"><a title="La biblioteca libre online" href="index.php">Open Library</a></h1>
         <h2 class="books_subtitle">"La Biblioteca Libre online que estabas esperando"</h2>
-      </div>
-      <div class="intro_section">
-        <a class="main_rss_follow" href="../selector-rss/index.php">RSS</a>
-        <a class="main_twitter_follow" href="http://twitter.com/etnassoft/">Twitter</a>
       </div>
     </div>
 
@@ -91,8 +86,12 @@ require '../bin/connect_sql.php';
 
               <select name="books_category" id="categories_for_books">
                 <option value="all">Todas las categor&iacute;as</option>
-                <option value="ajedrez" >Ajedrez</option>
-                <option value="arte-bellas-artes" >Arte - Bellas Artes</option>            
+<?
+$sql = mysql_query("SELECT id, nombre FROM categoria");
+while ($row = mysql_fetch_array($sql)) {
+    echo '<option value="'.$row['nombre'].'" onclick="cargarLibrosAjax('.$row['id'].')" >'.$row['nombre'].'</option>';
+}
+?>
               </select>
 
               <button class="standard_submit_btn" type="submit">
