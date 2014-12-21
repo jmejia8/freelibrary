@@ -18,32 +18,19 @@ $row=mysql_fetch_array($sql);
 <!DOCTYPE html>
 <html lang="es-ES" xmlns:fb="http://ogp.me/ns/fb#" xmlns:addthis="http://www.addthis.com/help/api-spec" >
 
-
-<!-- Mirrored from www.etnassoft.com/biblioteca/30-maths-starters/ by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 06 Dec 2014 17:17:43 GMT -->
-<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
 <head>
-  <meta charset="utf-8">
+  <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
   <title><? echo $row['nombre']; ?> | Open Library</title>
   <link rel="stylesheet" type="text/css" media="all" href="../wp-content/themes/etnassoft/style.css" />
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="../js/boton_arriba.js"></script>
   <link rel="stylesheet" href="../wp-content/themes/etnassoft/bookstore-final.css" />
-
-  <!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if necessary -->
-  <script src="../wp-content/themes/etnassoft/js/jquery-1.6.1.min.js"></script>
-
-
-  
-<!-- <meta name='shareaholic:site_name' content='EtnasSoft' />
-<meta name='shareaholic:image' content='http://collection.openlibra.com.s3.amazonaws.com/covers/2014/06/30-maths-starters-OpenLibra.gif' />
-<meta property='og:image' content='http://collection.openlibra.com.s3.amazonaws.com/covers/2014/06/30-maths-starters-OpenLibra.gif' />
- -->
-
-
 </head>
 <body class="page page-id-12462 page-child parent-pageid-566 page-template page-template-book-title-page-php 30 maths starters unknown">
 
   <div id="header">
     <div id="header-topnav">
-      <a title="Dise&ntilde;o y programaci&oacute;n Web. Ingenier&iacute;a Javascript." href="../../index.html">
+      <a title="Dise&ntilde;o y programaci&oacute;n Web. Ingenier&iacute;a Javascript." href="../">
         <img id="logo" src="../wp-content/themes/etnassoft/images/headers/logo_white.png" />
       </a>
       <div id="access" role="navigation">
@@ -73,7 +60,7 @@ $row=mysql_fetch_array($sql);
   <div id="bookstore_info_bar">
     <div class="inner">
       <div class="title_section">
-        <h1 class="books_title"><a title="OpenLibra. La biblioteca libre online" href="../index.html">Open Library</a></h1>
+        <h1 class="books_title"><a title="OpenLibra. La biblioteca libre online" href="../index.php">Open Library</a></h1>
         <h2 class="books_subtitle">"La Biblioteca Libre online que estabas esperando"</h2>
       </div>
       <div class="intro_section">
@@ -92,12 +79,12 @@ $row=mysql_fetch_array($sql);
 
 
 
-<link rel="stylesheet" href="../wp-includes/css/Aristo/jquery-ui-1.8.7.custom.css" />
+<!-- <link rel="stylesheet" href="../wp-includes/css/Aristo/jquery-ui-1.8.7.custom.css" /> -->
 
 <div id="content">
   <ul id="crumbs">
-    <li><a href="../../index.html">Inicio</a><span class="separator">-</span></li>
-    <li><a href="../index.html">Biblioteca</a><span class="separator">:</span></li>
+    <li><a href="../">Inicio</a><span class="separator">-</span></li>
+    <li><a href="./">Biblioteca</a><span class="separator">:</span></li>
     <li><? echo $row['nombre']; ?></li>
   </ul>
 <div>
@@ -194,11 +181,6 @@ $row=mysql_fetch_array($sql);
 
             <h2>Contenido</h2>
             <div class="book_content">
-              <!-- <div class="addthis_toolbox addthis_default_style " addthis:url='http://www.etnassoft.com/biblioteca/30-maths-starters/' addthis:title='30 Maths Starters '  >
-                <a class="addthis_button_facebook_like" fb:like:layout="button_count"></a>
-                <a class="addthis_button_tweet"></a>
-                <a class="addthis_counter addthis_pill_style"></a>
-              </div> -->
                 <p>
                   <? echo $row['sipnosis']; ?>
                 </p>
@@ -210,11 +192,6 @@ $row=mysql_fetch_array($sql);
                 Descargar Libro
               </a>
             </div>
-						<!-- <div class="download_book purple">
-              <a href="http://collection.openlibra.com.s3.amazonaws.com/pdf/30-maths-starters.pdf?AWSAccessKeyId=AKIAIGY5Y2YOT7GYM5UQ&amp;Signature=i5poadEOUbcPzdJC6QsS3ft8bFw%3D&amp;Expires=1417892935" rel="external">
-                Visualizar PDF
-              </a>
-            </div> -->
 
 						<div id="paypal-donate-form">
               <a href="../../biblioteca-footer/donaciones/index.html" title="Realizar una donaci&oacute;n">
@@ -283,32 +260,15 @@ $row=mysql_fetch_array($sql);
   </form>
 
 </div>
-</div><!-- #comments -->
-
-
-<script type="text/javascript">
-  jQuery(document).ready(function($) {
-    // Damos formato al comentario del usuario
-    // TODO: Sacar de aquí y poner en su sitio.
-    $('#submit').click(function(){
-      var commentInput = $('#comment');
-      var textComment = commentInput.val();
-      textComment
-      textComment = textComment.replace(/</g, '&lt;');
-      textComment = textComment.replace(/>/g, '&gt;');
-      console.log(textComment);
-      //commentInput.val(textComment);
-    })
-  });
-</script>      </div>
+</div>
+</div>
 
     </div>
 
 
 
-			</div><!-- #content -->
-		</div><!-- #container -->
-
+			</div>
+		</div>
   </div>
 </div>
 <div id="wrapper_closer"></div>
@@ -316,198 +276,27 @@ $row=mysql_fetch_array($sql);
   <div id="footer_books_content">
 
     <div id="footer_brand">
-      <a href="../index.html" class="footer_logo">OpenLibra</a>
-      <p>
-        <span class="design_by">OpenLibra Girl by <a href="http://saisan-disseny.blogspot.com/" title="Saisan Disseny">Saisan Disseny</a></span>
-        <span class="twitter_link"><a href="http://twitter.com/SaisanDisseny/" title="@SaisanDisseny">@SaisanDisseny</a></span>
-      </p>
-      <p>
-        <span class="design_by">OpenLibra Logo by <a href="http://about.me/vaneloana" title="Vanessa Reyes">Vanessa Reyes</a></span>
-        <span class="twitter_link"><a href="http://twitter.com/vaneloana" title="@vaneloana">@vaneloana</a></span>
-      </p>
+      <center>
+      <a href="index.php" class="footer_logo">OpenLibra</a>
+      </center>
     </div>
 
-    <div id="footer_books_nav">
-
-      <ul>
-
-        <li class="first-item">
-          <h2>OpenLibra</h2>
-          <ul>
-            <li><a href="../../biblioteca-footer/el-proyecto/index.html" title="Proyecto">Proyecto</a></li>
-            <li><a href="../../biblioteca-footer/sobre-las-licencias/index.html" title="Sobre las licencias">Sobre las licencias</a></li>
-            <li><a href="../../biblioteca-footer/opensearch-y-openlibra/index.html" title="Open Search en OpenLibra">OpenSearch y OpenLibra</a></li>
-            <li><a href="../../api-documentacion/index.html" title="API P&uacute;blica">API P&uacute;blica</a></li>
-            <li><a href="../../biblioteca-footer/faqs/index.html" title="Preguntas Frecuentes">FAQs</a></li>
-          </ul>
-        </li>
-
-        <li>
-          <h2>Participa</h2>
-          <ul>
-            <li><a href="../../subir-libro/index.html" title="Sugerir un libro">Sugerir un Libro</a></li>
-            <li><a href="../../biblioteca-footer/promocione-su-obra/index.html" title="Promocione su obra">Promocione su obra</a></li>
-            <li><a class="new_feature" href="../../trabajar-en-openlibra/index.html" title="Trabajar en OpenLibra">Trabajar en OpenLibra</a></li>
-            <li><a class="new_feature" href="../../biblioteca-footer/donaciones/index.html" title="Realizar una donaci&oacute;n">Hacer una donaci&oacute;n</a></li>
-          </ul>
-        </li>
-
-        <li>
-          <h2>Contactar</h2>
-          <ul>
-            <li><a href="http://twitter.com/etnassoft" title="Twitter">S&iacute;guenos en Twitter</a></li>
-            <li><a href="../../contactar/index.html" title="Abusos">Reportar abuso</a></li>
-            <li><a href="../../contactar/index.html" title="Contactar">Enviar mail</a></li>
-          </ul>
-        </li>
-
-      </ul>
-
-    </div><!-- #footer_books_nav -->
-
-  </div><!-- footer_books_content -->
-
-  <div id="books_colophon">
-    <p>&copy;2011 OpenLibra is licensed under a <a href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0</a> | Development by <a href="../../index.html">EtnasSoft</a> | Follow me on Twitter: <a href="http://twitter.com/etnassoft">@etnassoft</a></p>
   </div>
 
-</div><!-- #footer_books -->
+</div>
+  <div id="subfooter">
+    <div id="subfooter_content">
+          <a id="back_to_top_link" type="button">Volver a arriba</a>
+          <div class="menu-menu-navegacion-container">
+            <ul id="menu-menu-navegacion-1" class="menu">
+              <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-807"><a href="../index.php">Inicio</a></li>
+            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-808"><a href="./">Biblioteca</a></li>
+          </ul>
+        </div>  
+    </div>
+  </div>
 
-<!-- Piwik -->
-<script type="text/javascript">
-  var _paq = _paq || [];
-  _paq.push(['trackPageView']);
-  _paq.push(['enableLinkTracking']);
-  (function() {
-    var u="http://185.37.226.98/piwik/";
-    _paq.push(['setTrackerUrl', u+'piwik.php']);
-    _paq.push(['setSiteId', 1]);
-    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
-  })();
-</script>
-<noscript><p><img src="http://185.37.226.98/piwik/piwik.php?idsite=1" style="border:0;" alt="" /></p></noscript>
-<!-- End Piwik Code -->
 
-<script type="text/javascript">var SHRSB_Settings = [];</script>	<script type="text/javascript">
-	  window.___gcfg = {lang: 'es'};
-	
-	  (function() {
-	    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
-	    po.src = 'https://apis.google.com/js/plusone.js';
-	    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
-	  })();
-	</script><script type="text/javascript">
-
-var addthis_config = {"data_track_clickback":true,"data_track_addressbar":false,"data_track_textcopy":false,"ui_atversion":"300"};
-var addthis_product = 'wpp-3.5.9';
-</script><script type="text/javascript" src="http://s7.addthis.com/js/300/addthis_widget.js#pubid=My+Profile"></script><script type='text/javascript' src='../../wp-content/plugins/contact-form-7/includes/js/jquery.form.mind03d.js?ver=3.51.0-2014.06.20'></script>
-<script type='text/javascript'>
-/* <![CDATA[ */
-var _wpcf7 = {"loaderUrl":"http:\/\/www.etnassoft.com\/wp-content\/plugins\/contact-form-7\/images\/ajax-loader.gif","sending":"Enviando...","cached":"1"};
-/* ]]> */
-</script>
-<script type='text/javascript' src='../../wp-content/plugins/contact-form-7/includes/js/scripts657a.js?ver=3.9.3'></script>
-<script type='text/javascript'>
-/* <![CDATA[ */
-var ratingsL10n = {"plugin_url":"http:\/\/www.etnassoft.com\/wp-content\/plugins\/wp-postratings","ajax_url":"http:\/\/www.etnassoft.com\/wp-admin\/admin-ajax.php","text_wait":"Please rate only 1 post at a time.","image":"stars","image_ext":"gif","max":"5","show_loading":"1","show_fading":"1","custom":"0"};
-var ratings_mouseover_image=new Image();ratings_mouseover_image.src=ratingsL10n.plugin_url+"/images/"+ratingsL10n.image+"/rating_over."+ratingsL10n.image_ext;;
-/* ]]> */
-</script>
-<script type='text/javascript' src='../../wp-content/plugins/wp-postratings/postratings-jsd9b4.js?ver=1.79'></script>
-<script type='text/javascript' src='http://dtym7iokkjlif.cloudfront.net/media/js/jquery.shareaholic-publishers-sb.min.js?ver=6.1.5.1'></script>
-<!--wp_footer-->
-<script type="text/javascript" src="../../wp-content/themes/etnassoft/js/jquery.tipsy.min.js"></script>
-<script type="text/javascript" src="http://apis.google.com/js/plusone.js"></script>
-
-<!-- Grab Google CDN's jQuery UI, with a protocol relative URL; fall back to local if necessary -->
-<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.13/jquery-ui.min.js"></script>
-<script>
-  jQuery.ui || document.write( '' +
-    unescape('%3Cscript src="http://www.etnassoft.com/wp-includes/js/jquery/ui.core.js"%3E%3C/script%3E') +
-    unescape('%3Cscript src="http://www.etnassoft.com/wp-includes/js/jquery/ui.widget.js"%3E%3C/script%3E') +
-    unescape('%3Cscript src="http://www.etnassoft.com/wp-includes/js/jquery/ui.tabs.js"%3E%3C/script%3E')
-  )
-</script>
-
-<script type="text/javascript">
-jQuery(document).ready( function(){
-  jQuery('.addthis_toolbox').insertAfter('.book_title');
-
-  jQuery('.entry-content').show();
-  jQuery( "#tabs" ).tabs({
-    ajaxOptions: {
-      data: {
-        'book_id' : '12462'
-      }
-    }
-  });
-
-  jQuery( '.share-panel-long-url').click( function(){
-    var $inputURL = jQuery('#share_panel_url');
-    if( jQuery(this).attr('checked') ){
-      var alternateURL = jQuery('#alternate_url').val();
-      if(!$inputURL.data('short_url')){
-        $inputURL.data('short_url', $inputURL.val() )
-      }
-      $inputURL.val( alternateURL );
-    }else{
-      $inputURL.val( $inputURL.data('short_url') );
-    }
-  } );
-
-  jQuery('.meta_details').click( function(){
-    $this = jQuery(this);
-    if( ($this).hasClass('closed') ){
-      $this.removeClass('closed').next().slideDown();
-    }else{
-      $this.addClass('closed').next().slideUp();
-    }
-  });
-
-  jQuery('.related_collection a').tipsy({
-    gravity: 'n'
-  });
-
-} );
-function bit_url( url ){
-  var username = "etnassoft"; // bit.ly username
-  var key = "R_8f3b78bef8ccdedf0915af1d9451d355";
-  $.ajax({
-    url: "http://api.bit.ly/v3/shorten",
-    data: {
-      longUrl : url,
-      apiKey : key,
-      login : username
-    },
-    dataType: "jsonp",
-    success : function( v ){
-      var bit_url = v.data.url;
-      $("#result").html('<a href="' + bit_url + '" target="_blank">' + bit_url + '</a>');
-    }
-  });
-}
-var ratingsL10n = {
-plugin_url: "http://www.etnassoft.com/wp-content/plugins/wp-postratings",
-ajax_url: "http://www.etnassoft.com/wp-content/plugins/wp-postratings/wp-postratings.php",
-text_wait: "Por favor, solo 1 voto cada vez.",
-image: "stars",
-image_ext: "gif",
-max: "5",
-show_loading: "0",
-show_fading: "0",
-custom: "0"
-};
-var ratings_mouseover_image=new Image();ratings_mouseover_image.src=ratingsL10n.plugin_url+"/images/"+ratingsL10n.image+"/rating_over."+ratingsL10n.image_ext;
-</script>
-
-<script type="text/javascript" src="../../wp-content/plugins/wp-postratings/postratings-js.js"></script>
 
 </body>
-
-<!-- Mirrored from www.etnassoft.com/biblioteca/30-maths-starters/ by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 06 Dec 2014 17:17:51 GMT -->
 </html>
-<!-- Dynamic page generated in 0.622 seconds. -->
-<!-- Cached page generated by WP-Super-Cache on 2014-12-06 17:08:55 -->
-
-<!-- super cache -->

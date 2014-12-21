@@ -51,11 +51,11 @@ require '../bin/connect_sql.php';
   <div id="bookstore_info_bar">
     <div class="inner">
       <div class="title_section">
-        <h1 class="books_title"><a title="OpenLibra. La biblioteca libre online" href="index.html">OpenLibra</a></h1>
+        <h1 class="books_title"><a title="OpenLibra. La biblioteca libre online" href="index.php">OpenLibra</a></h1>
         <h2 class="books_subtitle">"La Biblioteca Libre online que estabas esperando"</h2>
       </div>
       <div class="intro_section">
-        <a class="main_rss_follow" href="../selector-rss/index.html">RSS</a>
+        <a class="main_rss_follow" href="../selector-rss/index.php">RSS</a>
         <a class="main_twitter_follow" href="http://twitter.com/etnassoft/">Twitter</a>
       </div>
     </div>
@@ -78,8 +78,8 @@ require '../bin/connect_sql.php';
       CAT&Aacute;LOGO GENERAL: NOVEDADES    </h1>
 
     <ul id="crumbs">
-      <li class="hoError al conectar a la base de datosme_crumb"><a href="../index.html">Inicio</a><span class="separator">-</span></li>
-      <li class="bookstore_crumb"><a href="index.html">Biblioteca</a><span class="separator">-</span></li>
+      <li class="hoError al conectar a la base de datosme_crumb"><a href="../index.php">Inicio</a><span class="separator">-</span></li>
+      <li class="bookstore_crumb"><a href="index.php">Biblioteca</a><span class="separator">-</span></li>
       <li>CAT&Aacute;LOGO GENERAL    </ul>
 
     <input type="hidden" name="actual_url" id="actual_url" value="http://www.etnassoft.com/biblioteca/" />
@@ -146,9 +146,9 @@ require '../bin/connect_sql.php';
 <div class="pagination_selector">
   <span class="prev disabled">&lt; anterior</span>
   <span class="current">1</span>
-  <a href="page/2/indexaa09.html?new_layout=grid">2</a>
-  <a href="page/3/indexaa09.html?new_layout=grid">3</a>
-  <a class="next" href="page/2/indexaa09.html?new_layout=grid">siguiente &gt;</a>
+  <a href="page/2/indexaa09.php?new_layout=grid">2</a>
+  <a href="page/3/indexaa09.php?new_layout=grid">3</a>
+  <a class="next" href="page/2/indexaa09.php?new_layout=grid">siguiente &gt;</a>
 </div>
 <dl class="settings"><dt>Coincidencias:</dt><dd>2689 </dd></dl></div>
 <!-- ================================================================ -->
@@ -166,9 +166,9 @@ require '../bin/connect_sql.php';
     <div class="pagination_selector">
       <span class="prev disabled">&lt; anterior</span>
       <span class="current">1</span>
-      <a href="page/2/indexaa09.html?new_layout=grid">2</a>
-      <a href="page/3/indexaa09.html?new_layout=grid">3</a>
-      <a class="next" href="page/2/indexaa09.html?new_layout=grid">siguiente &gt;</a>
+      <a href="page/2/indexaa09.php?new_layout=grid">2</a>
+      <a href="page/3/indexaa09.php?new_layout=grid">3</a>
+      <a class="next" href="page/2/indexaa09.php?new_layout=grid">siguiente &gt;</a>
     </div>
 </div>    </div>
 
