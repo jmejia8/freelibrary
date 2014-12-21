@@ -31,16 +31,7 @@ require '../bin/connect_sql.php';
             <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-807" id="menu-item-807"><a href="../index.php">Inicio</a></li>
             <li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-566 current_page_item menu-item-808" id="menu-item-808"><a href="index.php">Biblioteca</a></li>
           </ul>
-        </div>
-
-        <div id="bookstore_search_form">
-          <form method="get" id="searchform" action="http://www.etnassoft.com/" >
-	<div>
-		<label class="screen-reader-text" for="s">Search for:</label>
-		<input type="text" value="" name="s" id="s" />
-		<input type="submit" id="searchsubmit" value="" class="hidden" />
-	</div>
-</form>        </div>
+        </div> 
       </div><!-- #access -->
     </div>
 	</div><!-- #header -->
@@ -84,12 +75,12 @@ require '../bin/connect_sql.php';
           <div class="search_area">
             <input type="text" class="filter" placeholder="Comience a escribir..." name="search_term" id="search_books_input" value="" />
 
-              <select name="books_category" id="categories_for_books">
-                <option value="all">Todas las categor&iacute;as</option>
+              <select name="books_category" id="categories_for_books" onchange="cargarLibrosAjax(this.value)">
+                <option value="-1">Todas las categor&iacute;as</option>
 <?
 $sql = mysql_query("SELECT id, nombre FROM categoria");
 while ($row = mysql_fetch_array($sql)) {
-    echo '<option value="'.$row['nombre'].'" onclick="cargarLibrosAjax('.$row['id'].')" >'.$row['nombre'].'</option>';
+    echo '<option value="'.$row['id'].'"  >'.$row['nombre'].'</option>';
 }
 ?>
               </select>

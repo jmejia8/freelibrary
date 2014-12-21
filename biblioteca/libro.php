@@ -42,14 +42,15 @@ $row=mysql_fetch_array($sql);
           </ul>
         </div>
 
-        <div id="bookstore_search_form">
+<!--         <div id="bookstore_search_form">
           <form method="get" id="searchform" action="http://www.etnassoft.com/" >
-	<div>
-		<label class="screen-reader-text" for="s">Search for:</label>
-		<input type="text" value="" name="s" id="s" />
-		<input type="submit" id="searchsubmit" value="" class="hidden" />
-	</div>
-</form>        </div>
+      	<div>
+      		<label class="screen-reader-text" for="s">Search for:</label>
+      		<input type="text" value="" name="s" id="s" />
+      		<input type="submit" id="searchsubmit" value="" class="hidden" />
+      	</div>
+      </form>
+    </div> -->
       </div><!-- #access -->
     </div>
 	</div><!-- #header -->
