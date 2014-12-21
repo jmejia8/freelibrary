@@ -4,6 +4,8 @@
 		<meta charset="utf-8">
 		<title>Inicio</title>
 		<link rel="stylesheet" type="text/css" media="all" href="wp-content/themes/etnassoft/style.css" />
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+		<script src="js/boton_arriba.js"></script>
 	</head>
 <body class="home blog las nuevas constantes en javascript: explicación, ejemplos e inconsistencias chrome">
 	<div id="wrapper" class="hfeed">
@@ -17,7 +19,7 @@
 					<div class="menu-header">
 						<ul>
 							<li id="menu-item-809" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-47 current_page_item menu-item-809"><a href="index.php">Inicio</a></li>
-							<li id="menu-item-808" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-808"><a href="biblioteca/index.html">Biblioteca</a></li>
+							<li id="menu-item-808" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-808"><a href="biblioteca/index.php">Biblioteca</a></li>
 						</ul>
 					</div>
 				</div>
@@ -78,16 +80,7 @@
 	</div>
 	<div id="subfooter">
 		<div id="subfooter_content">
-				<!-- El siguiente div abarca la parte de la licencia. -->
-			    <div class="cc">
-				    <a class="cc_a" href="http://es.creativecommons.org/licencia/" rel="licencia nofollow" target="_blank">
-				        <img src="../wp-content/themes/etnassoft/images/layout/creative-commons.png" alt="Licencia Creative Commons 3.0" />
-				    </a>
-				    <p>&reg;Copyright 2011. Cotenido web bajo licencia <a href="http://creativecommons.org/licenses/by/3.0/deed.es">Creative Commons 3.0</a></p>
-				      <p>C&oacute;digos bajo licencias MIT y GPL. Ver <a href="../licencias/index.html">p&aacute;gina de licencias</a> para m&aacute;s informaci&oacute;n
-				    </p>
-			    </div>
-			    <a href="#" id="back_to_top_link">Volver a arriba</a>
+			    <a id="back_to_top_link" type="button">Volver a arriba</a>
 			    <div class="menu-menu-navegacion-container">
 			    	<ul id="menu-menu-navegacion-1" class="menu">
 			    		<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-807"><a href="index.php">Inicio</a></li>
