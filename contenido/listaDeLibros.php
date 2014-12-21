@@ -1,11 +1,11 @@
 <?
 require '../bin/connect_sql.php';
 
-if (isset($_GET['categoria'])) {
-  $categ = $_GET['categoria'];
+if (isset($_GET['categoria']) and $_GET['categoria']!=-1) {
+  $categ = quitar($_GET['categoria']);
   $sql = mysql_query("SELECT * FROM libro WHERE categoria = $categ");
 }else{
-  $sql = mysql_query("SELECT * FROM libro ");
+  $sql = mysql_query("SELECT * FROM libro limit 0, 50");
 }
 if (mysql_num_rows($sql)==0) {
   echo "<center>Sin resultados</center>";

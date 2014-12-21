@@ -84,7 +84,7 @@
 			    <div class="menu-menu-navegacion-container">
 			    	<ul id="menu-menu-navegacion-1" class="menu">
 			    		<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-807"><a href="index.php">Inicio</a></li>
-						<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-808"><a href="biblioteca/index.html">Biblioteca</a></li>
+						<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-808"><a href="biblioteca/index.php">Biblioteca</a></li>
 					</ul>
 				</div>  
 		</div>

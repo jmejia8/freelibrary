@@ -1422,6 +1422,7 @@ h2.no_founds{
   display: inline-block;
   height: 90px;
   margin: 2px 0 0;
+  margin-left: 90%;
   text-indent: -9999px;
   width: 340px;
 }

@@ -98,18 +98,13 @@ $row=mysql_fetch_array($sql);
   <ul id="crumbs">
     <li><a href="../../index.html">Inicio</a><span class="separator">-</span></li>
     <li><a href="../index.html">Biblioteca</a><span class="separator">:</span></li>
-    <li>30 Maths Starters</li>
+    <li><? echo $row['nombre']; ?></li>
   </ul>
 <div>
 
 
     
     <div id="tabs">
-      <ul>
-        <li><a href="#detalles-libro">Detalles</a></li>
-        <li><a href="#comentarios-libro">Comentarios / Reviews</a></li>
-        <li><a href="../../lectura_online/index.html">Lectura Online</a></li>
-      </ul>
       <div id="detalles-libro">
         <div id="post-12462" class="post-12462 page type-page status-publish has-post-thumbnail hentry">
 
@@ -122,12 +117,16 @@ $row=mysql_fetch_array($sql);
             <div id="related_books">
               <h2>Lecturas relacionadas</h2>
 
-              <div class="related_collection">                  <a href="../advanced-probability-and-statistics-concepts/index.html" rel="bookmark" title="Advanced Probability and Statistics Concepts">
-                    <img width="667" height="865" src="http://collection.openlibra.com.s3.amazonaws.com/covers/2014/11/Advanced-Probability-and-Statistics-Concepts-OpenLibra-110x153.jpg" class="related_thumb wp-post-image" alt="Advanced Probability and Statistics Concepts" title="Advanced Probability and Statistics Concepts" />                  </a>
-                                  <a href="../go-on-go-the-analyzed-games-of-go-seigen/index.html" rel="bookmark" title="Go on Go: The Analyzed Games of Go Seigen">
-                    <img width="450" height="591" src="http://collection.openlibra.com.s3.amazonaws.com/covers/2014/11/go-seigen-book-OpenLibra-110x153.gif" class="related_thumb wp-post-image" alt="Go on Go: The Analyzed Games of Go Seigen" title="Go on Go: The Analyzed Games of Go Seigen" />                  </a>
-                                  <a href="../modeling-and-simulation-for-high-school-teachers-principles-problems-and-lesson-plans/index.html" rel="bookmark" title="Modeling and Simulation for High School Teachers: Principles, Problems, and Lesson Plans">
-                    <img width="647" height="839" src="http://collection.openlibra.com.s3.amazonaws.com/covers/2014/11/Modeling-and-Simulation-for-High-School-Teachers-OpenLibra-110x153.jpg" class="related_thumb wp-post-image" alt="Modeling and Simulation for High School Teachers: Principles, Problems, and Lesson Plans" title="Modeling and Simulation for High School Teachers: Principles, Problems, and Lesson Plans" />                  </a>
+              <div class="related_collection">
+                <a href="../advanced-probability-and-statistics-concepts/index.html" rel="bookmark" title="Advanced Probability and Statistics Concepts">
+                  <img width="667" height="865" src="http://collection.openlibra.com.s3.amazonaws.com/covers/2014/11/Advanced-Probability-and-Statistics-Concepts-OpenLibra-110x153.jpg" class="related_thumb wp-post-image" alt="Advanced Probability and Statistics Concepts" title="Advanced Probability and Statistics Concepts" />
+                </a>
+                <a href="../go-on-go-the-analyzed-games-of-go-seigen/index.html" rel="bookmark" title="Go on Go: The Analyzed Games of Go Seigen">
+                    <img width="450" height="591" src="http://collection.openlibra.com.s3.amazonaws.com/covers/2014/11/go-seigen-book-OpenLibra-110x153.gif" class="related_thumb wp-post-image" alt="Go on Go: The Analyzed Games of Go Seigen" title="Go on Go: The Analyzed Games of Go Seigen" />
+                  </a>
+                <a href="#" rel="bookmark" title="Modeling and...">
+                    <img width="647" height="839" src="http://collection.openlibra.com.s3.amazonaws.com/covers/2014/11/Modeling-and-Simulation-for-High-School-Teachers-OpenLibra-110x153.jpg" class="related_thumb wp-post-image" alt="Modeling and Simulation for High School Teachers: Principles, Problems, and Lesson Plans" title="Modeling .." />
+                  </a>
                 </div>
             </div><!-- Related Books -->
 
@@ -136,7 +135,6 @@ $row=mysql_fetch_array($sql);
           
           <div class="entry-content">
             <h1 class="book_title"><? echo $row['nombre']; ?></h1>
-            <div class="google_button"><g:plusone href="index.html" callback="plusone_vote"></g:plusone></div>
 
             <h2>Ficha T&eacute;cnica:</h2>
             <div class="book_details">
@@ -196,11 +194,11 @@ $row=mysql_fetch_array($sql);
 
             <h2>Contenido</h2>
             <div class="book_content">
-              <div class="addthis_toolbox addthis_default_style " addthis:url='http://www.etnassoft.com/biblioteca/30-maths-starters/' addthis:title='30 Maths Starters '  >
+              <!-- <div class="addthis_toolbox addthis_default_style " addthis:url='http://www.etnassoft.com/biblioteca/30-maths-starters/' addthis:title='30 Maths Starters '  >
                 <a class="addthis_button_facebook_like" fb:like:layout="button_count"></a>
                 <a class="addthis_button_tweet"></a>
                 <a class="addthis_counter addthis_pill_style"></a>
-              </div>
+              </div> -->
                 <p>
                   <? echo $row['sipnosis']; ?>
                 </p>
