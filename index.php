@@ -11,8 +11,8 @@
 	<div id="wrapper" class="hfeed">
 		<div id="header">
 			<div id="header-topnav">
-				<a title="Dise&ntilde;o y programaci&oacute;n Web. Ingenier&iacute;a Javascript." href="index.html">
-					<img id="logo" alt="Dise&ntilde;o y programaci&oacute;n web Madrid. Desarrollo de Frontend Madrid. Programaci&oacute;n Javascript Madrid." src="wp-content/themes/etnassoft/images/headers/logo.png"/>
+				<a href="index.php">
+					<img id="logo" alt="open library" src="wp-content/themes/etnassoft/images/headers/logo.png"/>
 				</a>
 				<div id="access">
 						<div class="skip-link screen-reader-text"><a href="#content" title="Saltar al contenido">Saltar al contenido</a></div>
