@@ -41,20 +41,9 @@ $row=mysql_fetch_array($sql);
             <li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-566 current_page_item menu-item-808" id="menu-item-808"><a href="index.php">Biblioteca</a></li>
           </ul>
         </div>
-
-<!--         <div id="bookstore_search_form">
-          <form method="get" id="searchform" action="http://www.etnassoft.com/" >
-      	<div>
-      		<label class="screen-reader-text" for="s">Search for:</label>
-      		<input type="text" value="" name="s" id="s" />
-      		<input type="submit" id="searchsubmit" value="" class="hidden" />
-      	</div>
-      </form>
-    </div> -->
-      </div><!-- #access -->
+      </div>
     </div>
-	</div><!-- #header -->
-
+	</div>
   <div id="bookstore_promobar"></div>
 
   <div id="bookstore_info_bar">
@@ -71,13 +60,7 @@ $row=mysql_fetch_array($sql);
 
 
 <div id="wrapper" class="hfeed">
-
 	<div id="main">
-
-
-
-<!-- <link rel="stylesheet" href="../wp-includes/css/Aristo/jquery-ui-1.8.7.custom.css" /> -->
-
 <div id="content">
   <ul id="crumbs">
     <li><a href="../">Inicio</a><span class="separator">-</span></li>
@@ -235,11 +218,7 @@ $row=mysql_fetch_array($sql);
 </div>
 </div>
 </div>
-
     </div>
-
-
-
 			</div>
 		</div>
   </div>
